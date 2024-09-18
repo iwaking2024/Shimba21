@@ -75,9 +75,9 @@ global.packname = "𝙲𝙾𝚁𝚃𝙰𝙽𝙰𝙱𝙾𝚃-𝟸.𝟶"
 global.author = `${vs}`
  
 //---------[ IMAGEN ]--------- 
-global.img = "https://qu.ax/hQrA.jpg"
-global.img1 = 'https://qu.ax/VqDa.jpg'
-global.img2 = 'https://qu.ax/lwJi.jpg' 
+global.img = "https://qu.ax/tvir.jpg"
+global.img1 = 'https://qu.ax/LXJg.jpg'
+global.img2 = 'https://qu.ax/MoOE.png' 
 
 global.imagen1 = fs.readFileSync('./media/menu.jpg')
 global.imagen2 = fs.readFileSync('./media/menu2.jpg')
@@ -88,7 +88,7 @@ global.noperfil = fs.readFileSync('./media/sinfoto.jpg')
 global.verificar = 'https://qu.ax/Wogm.mp4'
 
 //---------[ ENLACES ]---------
-global.md = 'https://github.com/russellxz/CORTANABOT2.0.git'
+global.md = 'https://github.com/iwaking2024/shimba21.git'
 global.yt = 'https://www.youtube.com/@RussellxzZing507andCrownsavage'
 global.tiktok = 'https://www.instagram.com/russellxz507ny'
 global.fb = 'https://www.facebook.com/elrebelde21'
