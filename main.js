@@ -1360,7 +1360,7 @@ await conn.sendTextWithMentions(m.chat, result, m)
 if (budy.includes(`Yaoi`)) {
 if (!global.db.data.chats[m.chat].reaccion) return
 m.react(`${pickRandom(['😐', '👀', '😹'])}`)
-m.reply(`${pickRandom(['Que mamada? vete a estudiar mejor', 'Soy un bot hetero, no pida mamada (︶｡︶)zzZ '])}`)}
+m.reply(`${pickRandom(['Que carajo? vete a estudiar mejor', 'Soy un bot, no pidas tonterias (︶｡︶)zzZ '])}`)}
 if (budy.startsWith(`a`)) {
 if (!global.db.data.chats[m.chat].reaccion) return
 if (!global.db.data.chats[m.chat].audios) return
