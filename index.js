@@ -508,8 +508,8 @@ welc = await getBuffer(ppuser)
 leave = await getBuffer(ppuser)
 if (anu.action == 'add') {
 const buffer = await getBuffer(ppuser)
-const time = moment.tz('America/Bogota').format('HH:mm:ss')
-const date = moment.tz('America/Bogota').format('DD/MM/YYYY')
+const time = moment.tz('America/El_Salvador').format('HH:mm:ss')
+const date = moment.tz('America/El_Salvador').format('DD/MM/YYYY')
 let name = num
 const miembros = metadata.participants.length
 let vn = 'https://qu.ax/Rilk.mp3'
@@ -531,8 +531,8 @@ contextInfo: { mentionedJid:[num], "externalAdReply": {
 seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (media === 'image')
 sock.sendMessage(anu.id, {image: welc, caption: `😃𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃@😃 
-@${name.split("@")[0]} 😇ᴄᴏᴍᴏ ᴇsᴛᴀs😇 
-😎ʏᴏ sᴏʏ ᴄᴏʀᴛᴀɴᴀʙᴏᴛ😎 
+@${name.split("@")[0]} 😇¿Cómo estás?😇 
+😎Yo soy Shimba Bot😎 
 
 💯ᴜɴ ʙᴏᴛ ᴄᴏɴ ᴅɪғᴇʀᴇɴᴛᴇ ғᴜɴᴄɪᴏɴᴇs ᴅᴇsᴄᴀʀɢᴏ ᴍᴜsɪᴄᴀ ʏ ᴠɪᴅᴇᴏ ʜᴀɢᴏ sᴛɪᴄᴋᴇʀs ʏ ᴇɴᴛʀᴇ ᴍᴜᴄʜᴀs ᴄᴏsᴀs ᴍᴀs💯 
 
@@ -542,8 +542,8 @@ ${metadata.desc}`, mentions: [num]}, {quoted: fkontak})
 //sock.sendMessage(anu.id, { text: welcome, mentions: [num]}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (media === 'video') 
 sock.sendMessage(anu.id, {video: {url: vid}, caption: `😃𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃@😃 
-@${name.split("@")[0]} 😇ᴄᴏᴍᴏ ᴇsᴛᴀs😇
-😎ʏᴏ sᴏʏ ᴄᴏʀᴛᴀɴᴀʙᴏᴛ😎 
+@${name.split("@")[0]} 😇¿Cómo estás?😇
+😎Yo soy Shimba Bot😎 
 
 💯ᴜɴ ʙᴏᴛ ᴄᴏɴ ᴅɪғᴇʀᴇɴᴛᴇ ғᴜɴᴄɪᴏɴᴇs ᴅᴇsᴄᴀʀɢᴏ ᴍᴜsɪᴄᴀ ʏ ᴠɪᴅᴇᴏ ʜᴀɢᴏ sᴛɪᴄᴋᴇʀs ʏ ᴇɴᴛʀᴇ ᴍᴜᴄʜᴀs ᴄᴏsᴀs ᴍᴀs💯 
 
