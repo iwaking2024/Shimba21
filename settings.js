@@ -10,8 +10,8 @@ global.premium = []
 global.blockList = []  
 
 //---------[ NOMBRE/INFO ]---------
-global.botname = "CORTANABOT-2.0"
-global.wm = '𝙲𝙾𝚁𝚃𝙰𝙽𝙰𝙱𝙾𝚃-𝟸.𝟶'
+global.botname = "SHIMBABOT"
+global.wm = 'SHIMBABOT'
 global.vs = '(Personalizado)'
 
 //Función beta : escribe el número que quiere que sea bot para que mande el Código de 8 digitos
