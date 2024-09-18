@@ -19,7 +19,7 @@ global.botNumberCode = "" //Ejemplo: +59309090909
 global.phoneNumber = ""
 
 //---------[ FECHA/IDIOMAS ]---------
-global.place = 'America/Bogota' // Aquí puedes encontrar tu ubicación https://momentjs.com/timezone/
+global.place = 'America/El_Salvador' // Aquí puedes encontrar tu ubicación https://momentjs.com/timezone/
 global.lenguaje = es //Predeterminado en idioma Español 
 global.prefix = [`/`]
 
