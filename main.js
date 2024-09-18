@@ -948,7 +948,7 @@ this.confirm[m.sender.split('@')[0]] = { sender: m.sender, to: who, message: m, 
 break
       
 case 'tienda': case 'tiendas': 
-conn.sendButton(m.chat, `꧁🪼𝐂𝐎𝐑𝐓𝐀𝐍𝐀 𝐒𝐓𝐎𝐑𝐄🪼꧂
+conn.sendButton(m.chat, `꧁🪼SHIMBA STORE🪼꧂
 █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
 █-----╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗-----█
 █-----║║║╠─║─║─║║║║║╠─-----█
@@ -1268,7 +1268,7 @@ try {
 let stdout = execSync('git pull' + (m.fromMe && q ? ' ' + q : ''))
 await m.reply(stdout.toString())
 } catch { 
-let updatee = execSync('git remote set-url origin https://github.com/russellxz/CORTANABOT2.0.git && git pull')
+let updatee = execSync('git remote set-url origin https://github.com/iwaking2024/shimba21.git && git pull')
 await m.reply(updatee.toString())}  
 break
 case 'apagar':
@@ -1294,7 +1294,7 @@ default:
 if (budy.includes(`Todo bien`)) {
 if (!global.db.data.chats[m.chat].reaccion) return
 // conn.sendPresenceUpdate('composing', m.chat)
-await m.reply(`${pickRandom(['Si amigo todo bien, vite', 'Todo bien capo y tu 😎'])}`)} 
+await m.reply(`${pickRandom(['Si amigo todo bien', 'Todo bien y tú 😎'])}`)} 
 if (budy.includes(`Autodestruction`)) { 
 if (!global.db.data.chats[m.chat].reaccion) return
 //let e = fs.readFileSync('./src/autodestruction.webp')
