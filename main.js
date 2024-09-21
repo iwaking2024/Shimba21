@@ -1436,9 +1436,9 @@ if (budy.startsWith(`+58 416-3393168`) || budy.startsWith(`@584163393168`)) {
 if (!global.db.data.chats[m.chat].reaccion) return
 const vn = 'https://qu.ax/QojN.mp3';
 conn.sendAudio(m.chat, vn, m)}
-if (budy.startsWith(`+58 412-3552078`) || budy.startsWith(`@584123552078`)) {
+if (budy.startsWith(`+503 7159-2727`) || budy.startsWith(`@50371592727`)) {
 if (!global.db.data.chats[m.chat].reaccion) return
-const vn = 'https://qu.ax/kziX.mp3';
+const vn = 'https://qu.ax/nGVs.mp3';
 conn.sendAudio(m.chat, vn, m)}
 if (budy.startsWith(`+57 324 2402359`) || budy.startsWith(`@573242402359`)) {
 if (!global.db.data.chats[m.chat].reaccion) return
