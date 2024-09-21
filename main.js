@@ -1369,9 +1369,9 @@ await conn.sendPresenceUpdate('recording', m.chat)
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": botname, "body": ``, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen4, "sourceUrl": md, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 if (/^Hola|hello|Hello|hola|ola$/i.test(budy)) {
 if (!global.db.data.chats[m.chat].reaccion) return
-let vid = 'https://qu.ax/bfbU.mp4'
+let vid = 'https://qu.ax/Dvmc.mp4'
 let vn = 'https://qu.ax/hJA.mp3'
-let stic = 'https://qu.ax/LTVf.webp' 
+let stic = 'https://qu.ax/gPz.jpg' 
 let stic2 = 'https://qu.ax/QftU.webp'      
 let or = ['sticker', 'audio', 'video'];  
 let media = or[Math.floor(Math.random() * 3)]
