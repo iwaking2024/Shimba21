@@ -1370,7 +1370,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 if (/^Hola|hello|Hello|hola|ola$/i.test(budy)) {
 if (!global.db.data.chats[m.chat].reaccion) return
 let vid = 'https://qu.ax/Dvmc.mp4'
-let vn = 'https://qu.ax/hJA.mp3'
+let vn = 'https://qu.ax/pSxj.mp3'
 let stic = 'https://qu.ax/gPz.jpg' 
 let stic2 = 'https://qu.ax/QftU.webp'      
 let or = ['sticker', 'audio', 'video'];  
