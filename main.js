@@ -1434,7 +1434,7 @@ const vid = 'https://qu.ax/BcgR.mp4'
 conn.sendMessage(m.chat, {video: {url: vid}, caption: ``}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 if (budy.startsWith(`+58 416-3393168`) || budy.startsWith(`@584163393168`)) {
 if (!global.db.data.chats[m.chat].reaccion) return
-const vn = 'https://qu.ax/tkLb.mp3';
+const vn = 'https://qu.ax/QojN.mp3';
 conn.sendAudio(m.chat, vn, m)}
 if (budy.startsWith(`+58 412-3552078`) || budy.startsWith(`@584123552078`)) {
 if (!global.db.data.chats[m.chat].reaccion) return
