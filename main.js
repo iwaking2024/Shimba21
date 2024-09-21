@@ -1372,7 +1372,7 @@ if (!global.db.data.chats[m.chat].reaccion) return
 let vid = 'https://qu.ax/Dvmc.mp4'
 let vn = 'https://qu.ax/pSxj.mp3'
 let stic = 'https://qu.ax/gPz.jpg' 
-let stic2 = 'https://qu.ax/QftU.webp'      
+let stic2 = 'https://qu.ax/CEtd.png'      
 let or = ['sticker', 'audio', 'video'];  
 let media = or[Math.floor(Math.random() * 3)]
 if (media === 'sticker') conn.sendFile(m.chat, pickRandom([stic, stic2]), 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: `Hola ${pushname}`, mediaType: 2, sourceUrl: tiktok, thumbnail: imagen4}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})   
