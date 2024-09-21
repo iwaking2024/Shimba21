@@ -669,20 +669,20 @@ whitespaceBreak: false
  
 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 console.log(color('[SYS]', '#009FFF'),
-color(moment().format('DD/MM/YY HH:mm:ss'), '#A1FFCE'),
+color(moment().format('DD/MM/YY HH:mm:ss'), '#a3ffa1'),
 color(`${lenguaje['smsConexioncerrar']()}`, '#f64f59'));
 startBot()
 } else if (opcion == '1' || methodCodeQR && qr !== undefined) {
 if (opcion == '1' || methodCodeQR) {
 console.log(color('[SYS]', '#009FFF'),
-color(moment().format('DD/MM/YY HH:mm:ss'), '#A1FFCE'),
+color(moment().format('DD/MM/YY HH:mm:ss'), '#a3ffa1'),
 color(`\n╭━─━─━─≪ ${vs} ≫─━─━─━╮\n│${lenguaje['smsEscaneaQR']()}\n╰━─━━─━─≪ 🟢 ≫─━─━━─━╯`, '#f12711'))
 }
 } else if (connection == 'open') {
 console.log(color(` `,'magenta'))
 console.log(color(`\n${lenguaje['smsConexion']()} ` + JSON.stringify(sock.user, null, 2), 'yellow'))
 console.log(color('[SYS]', '#009FFF'),
-color(moment().format('DD/MM/YY HH:mm:ss'), '#A1FFCE'),
+color(moment().format('DD/MM/YY HH:mm:ss'), '#a3ffa1'),
 color(`\n╭━─━─━─≪ ${vs} ≫─━─━─━╮\n│${lenguaje['smsConectado']()}\n╰━─━━─━─≪ 🟢 ≫─━─━━─━╯` + receivedPendingNotifications, '#38ef7d')
 );
 
