@@ -1389,8 +1389,8 @@ if (media === 'sticker') conn.sendFile(m.chat, pickRandom([s, s2]), 'sticker.web
 if (media === 'audio') conn.sendAudio(m.chat, vn, m)}
 if (/^anadieleimporta|a nadie le importa|y que|no importa|literal$/i.test(budy)) {
 if (!global.db.data.chats[m.chat].reaccion) return
-let s = 'https://qu.ax/SHgM.webp' 
-let s2 = 'https://qu.ax/glpp.webp'
+let s = 'https://qu.ax/DHbo.png' 
+let s2 = 'https://qu.ax/OBpb.jpeg'
 let vn = 'https://qu.ax/JocM.mp3'
 let or = ['sticker', 'audio'];   
 let media = or[Math.floor(Math.random() * 2)]
