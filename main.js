@@ -1406,11 +1406,11 @@ const vn = 'https://qu.ax/XYyY.m4a'
 conn.sendAudio(m.chat, vn, m)} 
 if (/^Hermosa|hermosa|guada|luuk$/i.test(budy)) {
 if (!global.db.data.chats[m.chat].reaccion) return
-const vn = 'https://qu.ax/GLuo.mp4'
+const vn = 'https://qu.ax/Wahk.mp4'
 conn.sendMessage(m.chat, {video: {url: vn}, caption: ``}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})} 
 if (/^riko|rico|sabraso|tetas|nepe|pene|Pene|Teta|Tetas|Rico|RiKo$/i.test(budy)) {
 if (!global.db.data.chats[m.chat].reaccion) return
-const vn = 'https://qu.ax/Mwjf.mp4'
+const vn = 'https://qu.ax/tRfa.mp4'
 conn.sendMessage(m.chat, {video: {url: vn}, caption: ``}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})} 
 if (/^novio|Novio$/i.test(budy)) {
 if (!global.db.data.chats[m.chat].reaccion) return
