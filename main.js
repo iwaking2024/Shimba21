@@ -1315,7 +1315,7 @@ if (budy.includes(`Avisos`) || budy.includes(`Atencion`)) {
 if (!global.db.data.chats[m.chat].reaccion) return
 m.react(`${pickRandom(['📣', '👀', '‼️'])}`)}
 if (budy.includes(`Bot`)) {   
-let vn = 'https://qu.ax/hJA.mp3'
+let vn = 'https://qu.ax/BZsj.mp3'
 conn.sendAudio(m.chat, vn, m)}
 if (budy.includes(`simi`)) {  
 game(m, budy, command, text, pickRandom, pushname, conn, participants, sender, who, body, sendImageAsUrl)}
